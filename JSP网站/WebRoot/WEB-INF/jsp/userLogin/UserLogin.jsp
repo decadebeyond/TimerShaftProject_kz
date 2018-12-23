@@ -37,6 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     				<div class="help-black">${ error.passowrd }</div>
     			</div>
     		</div>
+    		<%-- 
     		<div class="form-group">
     			<label class="control-label col-sm-4">验证码：</label>
     			<div class="col-sm-6">
@@ -44,6 +45,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     				<div class="help-black">${ error.vcode }</div>
     			</div>
     		</div>
+    		 --%>
     		<div class="form-group">
     			<div class="col-sm-offset-4 col-sm-4">
     				<button type="submit" class="btn btn-primary">登录</button>
@@ -55,6 +57,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     		</div>
     	</form>
     </div>
+    <%-- 
 <script type="text/javascript">
 $(function(){
 	$('.vcode').css('cursor', 'pointer').click(function(){
@@ -62,5 +65,6 @@ $(function(){
 	});
 });
 </script>
+ --%>
   </body>
 </html>
